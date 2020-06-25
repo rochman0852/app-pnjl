@@ -1,0 +1,42 @@
+#jam-digital {
+    font-size: 80px;
+    display: inline;
+
+
+}
+
+#jam {
+    float: left;
+    padding: 20px 20px;
+}
+
+#titikjam {
+    float: left;
+    padding: 20px 20px;
+}
+
+#menit {
+    float: left;
+    padding: 20px 20px;
+}
+
+#titikmenit {
+    float: left;
+    padding: 20px 20px;
+}
+
+#detik {
+    float: left;
+    padding: 20px 20px;
+}
+
+#jam-digital p {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    display: inline;
+
+
+
+}

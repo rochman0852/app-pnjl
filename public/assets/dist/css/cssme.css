@@ -1,0 +1,46 @@
+.tombol-turun2 {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 1fpx;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.menu-turun2 {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.isi-tombol-turun2 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.isi-tombol-turun2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.isi-tombol-turun2 a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.menu-turun2:hover .isi-tombol-turun2 {
+    display: block;
+}
+
+/* Change the background color of the menu-turun2 button when the dropdown content is shown */
+.menu-turun2:hover .tombol-turun2 {
+    background-color: #ddd;
+}
